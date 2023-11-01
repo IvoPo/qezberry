@@ -1,0 +1,25 @@
+{
+  "name": "qezberry",
+  "vendorId": "0xA68C",
+  "productId": "0xD03E",
+  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 4, 
+    "cols": 10
+  },
+  "layouts": {
+    "labels": [
+      ["Bottom Row", "Split space", "Triple space", "Full space"],
+      "WKL",
+      "HHKB"
+    ],
+    "keymap": [
+      [{"c":"#aaaaaa","a":0},"0,0\n\n\n\n\nTAB\n\n\n\nQ",{"c":"#cccccc","a":4},"0,1\n\n\n\n\n\n\n\n\nW","0,2\n\n\n\n\n\n\n\n\nE","0,3\n\n\n\n\n\n\n\n\nR","0,4\n\n\n\n\n\n\n\n\nT","0,5\n\n\n\n\n\n\n\n\nY","0,6\n\n\n\n\n\n\n\n\nU","0,7\n\n\n\n\n\n\n\n\nI","0,8\n\n\n\n\n\n\n\n\nO",{"c":"#aaaaaa","a":0,"w":1.25},"0,9\n\n\n\n1.25\nBS\n\n\n\nP"],
+      [{"w":1.25},"1,0\n\n\n\n1.25\n\n\n\n\nA",{"c":"#cccccc","a":4},"1,1\n\n\n\n\n\n\n\n\nS","1,2\n\n\n\n\n\n\n\n\nD","1,3\n\n\n\n\n\n\n\n\nF","1,4\n\n\n\n\n\n\n\n\nG","1,5\n\n\n\n\n\n\n\n\nH","1,6\n\n\n\n\n\n\n\n\nJ","1,7\n\n\n\n\n\n\n\n\nK","1,8\n\n\n\n\n\n\n\n\nL",{"c":"#aaaaaa"},"1,9\n\n\n\n\n\n\n\n\n;"],
+      [{"a":0,"w":1.75},"2,0\n\n\n\n1.75\n\n\n\n\nZ",{"c":"#cccccc","a":4},"2,2\n\n\n\n\n\n\n\n\nX","2,3\n\n\n\n\n\n\n\n\nC","2,4\n\n\n\n\n\n\n\n\nV","2,5\n\n\n\n\n\n\n\n\nB","2,6\n\n\n\n\n\n\n\n\nN","2,7\n\n\n\n\n\n\n\n\nM","2,8\n\n\n\n\n\n\n\n\n,",{"c":"#aaaaaa","a":0,"w":1.5},"2,9\n\n\n\n1.50\nENTER\n\n\n\n."],
+      [{"a":4},"2,1\n\n\n2,0\n\n\n\n\n\nCTRL","3,1\n\n\n1,0\n\n\n\n\n\nGUI","3,2\n\n\n0,0\n\n\n\n\n\nALT",{"c":"#cccccc","a":0,"w":2.25},"3,3\n\n\n0,0\n2.25\n\n\n\n\nSPACE",{"w":2},"3,6\n\n\n0,0\n2.0\n\n\n\n\nSPACE",{"c":"#aaaaaa","a":4},"3,7\n\n\n0,0\n\n\n\n\n\nALTGR","3,8\n\n\n1,0\n\n\n\n\n\nFN","3,9\n\n\n2,0\n\n\n\n\n\nCTRL"],
+      [{"y":0.5,"d":true},"3,8\n\n\n2,1\n\n\n\n\n\nCTRL",{"d":true},"3,1\n\n\n1,1\n\n\n\n\n\nGUI",{"c":"#cccccc","a":0,"w":2.75},"3,3\n\n\n0,1\n2.75",{"c":"#aaaaaa","w":1.25},"3,5\n\n\n0,1\n1.25",{"c":"#cccccc","w":2.25},"3,6\n\n\n0,1\n2.25",{"c":"#aaaaaa","a":4,"d":true},"3,8\n\n\n1,1\n\n\n\n\n\nFN",{"d":true},"3,8\n\n\n2,1\n\n\n\n\n\nCTRL"],
+      [{"x":2,"c":"#cccccc","a":0,"w":6.25},"3,5\n\n\n0,2\n6.25"]
+    ]
+  }
+}
