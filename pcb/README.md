@@ -20,5 +20,4 @@
 
 ### Preview
 
-<img src="back.png" alt="pcb_back" width="800"/>
-<img src="front.png" alt="pcb_front" width="800"/>
+<img src="https://i.imgur.com/kB44V9e.jpg" alt="pcb" width="800"/>
